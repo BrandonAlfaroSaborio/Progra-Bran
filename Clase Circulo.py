@@ -6,11 +6,9 @@ class Circulo:
         self.radio = radio
 
     def calcular_area(self):
-        """Calcula el área del círculo usando la fórmula A = πr^2."""
         return Circulo.PI * (self.radio ** 2)
 
     def calcular_perimetro(self):
-        """Calcula el perímetro del círculo usando la fórmula P = 2πr."""
         return 2 * Circulo.PI * self.radio
 
 if __name__ == "__main__":
