@@ -21,5 +21,5 @@ while True:
         break
     
 for imprimir in personas:
-    print("Cédula:", imprimir.cedula + ",", "Nombre:", imprimir.nombre + ",", "Edad:", str(imprimir.edad) + ",", "Correo:", imprimir.correo)
+    print("Nombre:", imprimir.nombre + ",", "Cedula:", imprimir.cedula + ",", "Edad:", str(imprimir.edad) + ",", "Correo:", imprimir.correo)
 
